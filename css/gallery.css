@@ -1,0 +1,120 @@
+.logo{
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+}
+body {
+background-color:#1d1d1d !important;
+font-family: "Asap", sans-serif;
+color:#989898;
+margin:10px;
+font-size:16px;
+}
+#demo {
+height:100%;
+position:relative;
+overflow:hidden;
+}
+@media(max-width:600px){.category{display:none;}}
+.green{ background-color:#6fb936;}
+.thumb{margin-bottom: 30px;}
+.page-top{margin-top:85px;}
+img.zoom {
+width: 100%;
+height: 200px;
+border-radius:5px;
+object-fit:cover;
+-webkit-transition: all .3s ease-in-out;
+-moz-transition: all .3s ease-in-out;
+-o-transition: all .3s ease-in-out;
+-ms-transition: all .3s ease-in-out;
+}
+.transition {
+    -webkit-transform: scale(1.2); 
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    .modal-header {
+   
+     border-bottom: none;
+}
+    .modal-title {
+        color:#000;
+    }
+    .modal-footer{
+      display:none;  
+    }
+.footer{
+background-repeat: no-repeat;
+background-image: url(../img/mail.gif);
+background-size: 100%;
+background-color: #1A54E7;
+height: 300px;
+}
+.footer1 h1{
+font:40px Times New Roman;
+color:#ffffff;
+text-align: center;
+outline:0px solid #ffffff;
+padding:20px 0 0 0;
+}
+.footer1 p{
+font:22px Times New Roman;
+color:#A9AEBD;
+text-align: center;
+outline:0px solid #ffffff;
+padding:0;
+margin:0;
+}
+.search-1{
+outline:0px solid #000000;
+height:40px;
+width:30%;
+border-radius:25px; 
+background-color:#2C6CFF;
+margin:0 auto;
+}
+@media(max-width:1000px){
+.search-1{width:50%;}	
+}
+@media(max-width:600px){
+.search-1{width:80%;}	
+}
+.input-1{                   
+border:0px solid #608389;  
+height:40px;             
+line-height:25px;   
+padding:0 7px;        
+background-color:#2C6CFF;
+cursor:pointer;
+border-radius:25px;
+width:60%;
+}
+.input-1:focus{         
+border:0px solid #3399FF;     
+background:none;              
+background-color:#ffffff;
+margin:0px 0px; 
+border-radius:25px;
+}
+.input{
+border:0px solid red;
+border-radius:25px;
+}
+.input button{
+width:105px;
+height:38px;
+float:right;  
+}
+.footer-2{
+margin: 70px auto 100px;
+}
+.footer-2 p{
+font:20px Times New Roman;
+color:#A9AEBD;
+text-align:center;
+outline:0px solid #ffffff;  
+margin-bottom:0;  
+}
