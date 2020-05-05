@@ -1,0 +1,2 @@
+# blogtemplate
+Шаблон блога
